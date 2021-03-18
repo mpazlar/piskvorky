@@ -1,3 +1,16 @@
+/*Nadpis Piškvorky je fontem Lobster. Najdeš ho zdarma na Google Fonts.
+Různé vzdálenosti, velikosti textu odhadni od oka nebo přesně změř na obrázku výše.
+Gradient v pozadí jde z fialové  #615dad do růžové  #ffc8da.
+Další barvy, které se ti budou hodit:
+Barva textu  #ffffff.
+Podkladová tmavě modrá  #283e50.
+Tlačítko Pravidla  #1fcca4. A po najetí myši  #1cbb96.
+Tlačítko Začít hrát  #0197f6. Po najetí  #0090e9.
+Úvodní text nemusíš opisovat. Stačí ho zkopírovat zde: Piškvorky jsou velmi oblíbená společenská hra pro dva hráče. Obvykle se hraje s tužkou a čtverečkovaným papírem. Nyní můžete využít naši skvělou aplikaci, takže už nepotřebujete ani tužku a nemusíte hledat čtverečkovaný papír. Přejeme vám hodně zábavy!*/
 body {
   background-color: rgb(189, 105, 189);
+}
+
+.nadpis {
+  font-family: 'Lobster', cursive;
 }
