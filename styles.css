@@ -24,10 +24,13 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: ;
+  /*
   border-style: none;
   border-radius: 5%;
   align-items: stretch;
   justify-content: left;
+  */
 }
 
 .pravidla {
