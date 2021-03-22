@@ -7,36 +7,86 @@ Podkladová tmavě modrá  #283e50.
 Tlačítko Pravidla  #1fcca4. A po najetí myši  #1cbb96.
 Tlačítko Začít hrát  #0197f6. Po najetí  #0090e9.
 Úvodní text nemusíš opisovat. Stačí ho zkopírovat zde: Piškvorky jsou velmi oblíbená společenská hra pro dva hráče. Obvykle se hraje s tužkou a čtverečkovaným papírem. Nyní můžete využít naši skvělou aplikaci, takže už nepotřebujete ani tužku a nemusíte hledat čtverečkovaný papír. Přejeme vám hodně zábavy!*/
-html,
-body {
-  margin: 0;
-  min-height: 100%;
-}
+
 body {
   background-image: linear-gradient(#615dad, #ffc8da);
   background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
 }
 
 .nadpis {
   font-family: 'Lobster', cursive;
 }
 
+.body_container {
+  display: flex;
+  position: relative;
+}
+
 .container {
   display: flex;
+  border-radius: 15%;
+  margin: 50px 50px;
+  padding: 50px;
+  width: 300px;
   flex-direction: column;
-  justify-content: ;
-  /*
-  border-style: none;
-  border-radius: 5%;
+  justify-content: center;
   align-items: stretch;
-  justify-content: left;
-  */
+}
+
+.obrazek {
+  display: flex;
+  border-radius: 5px 5px 0 0;
+}
+
+.piskvorky {
+  display: flex;
+  flex-direction: column;
+  background-color: #283e50;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
 }
 
 .pravidla {
   background-color: #1fcca4;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #ffffff;
 }
 
 .hrat {
   background-color: #0197f6;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+}
+/*
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: strech;
+}
+*/
+
+.pravidla:hover {
+  background-color: 1fcca4;
+  background-color: #1cbb96;
+}
+
+.hrat:hover {
+  background-color: #0197f6;
+  background-color: #0090e9;
 }
