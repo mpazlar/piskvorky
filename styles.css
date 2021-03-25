@@ -14,10 +14,16 @@ body {
   height: 100%;
   margin: 0;
   background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 .nadpis {
   font-family: 'Lobster', cursive;
+}
+.pismo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
 }
 
 .body_container {
@@ -58,10 +64,14 @@ body {
   display: block;
   width: 100%;
   cursor: pointer;
+  text-align: center;
 }
 
-a:visited {
-  color: #ffffff;
+a:visited,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
 }
 
 .hrat {
@@ -72,14 +82,8 @@ a:visited {
   display: block;
   width: 100%;
   cursor: pointer;
+  text-align: center;
 }
-/*
-.buttons {
-  display: flex;
-  flex-direction: column;
-  align-items: strech;
-}
-*/
 
 .pravidla:hover {
   background-color: 1fcca4;
