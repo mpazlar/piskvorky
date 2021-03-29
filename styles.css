@@ -115,3 +115,20 @@ a:active {
 .nav-bar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
+
+@media screen and (min-width: 300px) {
+  .container {
+    display: flex;
+    border-radius: 15%;
+    margin: 50px 50px;
+    padding: 50px;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .pismo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+  }
+}
