@@ -20,6 +20,7 @@ body {
 
 .nadpis {
   font-family: 'Lobster', cursive;
+  font-weight: 400;
 }
 .pismo {
   font-family: 'Montserrat', sans-serif;
@@ -61,7 +62,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #ffffff;
-  display: block;
+  /*display: block;*/
   width: 100%;
   cursor: pointer;
   text-align: center;
@@ -79,7 +80,7 @@ a:active {
   color: #ffffff;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: block;
+  /*display: block;*/
   width: 100%;
   cursor: pointer;
   text-align: center;
@@ -93,4 +94,8 @@ a:active {
 .hrat:hover {
   background-color: #0197f6;
   background-color: #0090e9;
+}
+
+.nav-bar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
