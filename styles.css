@@ -116,7 +116,7 @@ a:active {
   border-bottom: 1px solid rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 650px) {
   .container {
     display: flex;
     border-radius: 15%;
@@ -129,6 +129,19 @@ a:active {
   }
   .pismo {
     font-family: 'Montserrat', sans-serif;
-    font-size: medium;
+    font-size: large;
+  }
+  .nadpis {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: xxx-large;
+  }
+  .galerie {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .galerie_fotky {
+    flex-basis: 45%;
+    margin: 3vh 0 3vh 2vw;
   }
 }
