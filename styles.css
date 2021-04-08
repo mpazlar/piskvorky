@@ -16,6 +16,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: small;
   font-style: italic;
+  opacity: 90%;
 }
 .pismo {
   font-family: 'Montserrat', sans-serif;
@@ -117,7 +118,7 @@ a:active {
 }
 
 @media screen and (min-width: 650px) {
-  .container {
+  .container_rule {
     display: flex;
     border-radius: 15%;
     margin: 50px 50px;
