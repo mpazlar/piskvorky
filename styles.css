@@ -11,6 +11,7 @@ body {
 .nadpis {
   font-family: 'Lobster', cursive;
   font-weight: 400;
+  color: #ffffff;
 }
 .figcaption {
   font-family: 'Montserrat', sans-serif;
@@ -32,10 +33,34 @@ body {
   text-align: justify;
 }
 
+.menu {
+  display: flex;
+}
+
 ol li {
   margin-bottom: 5%;
   margin-right: 10%;
 }
+
+.btn_menu {
+  border-style: none;
+  border-radius: 5px;
+}
+.ref_menu {
+  margin-left: 5px;
+  justify-content: end;
+}
+
+.img_btn {
+  margin: 0 2px 0 2px;
+}
+
+.hraje {
+  color: white;
+  font-size: large;
+  font-weight: 700;
+}
+
 .container {
   display: flex;
   border-radius: 15%;
@@ -72,6 +97,31 @@ ol li {
   color: #ffffff;
   text-align: center;
   padding: 10px;
+}
+
+.pole {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+  height: 50%;
+}
+.hraci_pole {
+  display: grid;
+  border: 1px solid black;
+  height: 10%;
+  width: 10%;
+}
+
+.hra {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  justify-content: center;
+  padding: 10px;
+  max-width: 80vmin;
+  height: 100%;
 }
 
 .pravidla {
