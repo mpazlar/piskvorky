@@ -6,6 +6,8 @@ body {
   background-attachment: fixed;
   display: flex;
   justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: small;
 }
 
 .nadpis {
@@ -20,10 +22,6 @@ body {
   font-size: small;
   font-style: italic;
   opacity: 90%;
-}
-.pismo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: small;
 }
 
 .body_container {
@@ -57,9 +55,10 @@ ol li {
 }
 
 .btn_menu {
+  display: inline-block;
   border-style: none;
   border-radius: 5px;
-  align-items: stretch;
+  padding: 0.5rem;
 }
 .ref_menu {
   margin-left: 5px;
@@ -116,23 +115,20 @@ ol li {
 
 .pole {
   display: flex;
+
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 .hraci_pole {
-  display: grid;
   border: 1px solid black;
   width: 10%;
   aspect-ratio: 1 / 1;
-  opacity: 70%;
+  background-color: rgba(241, 241, 241, 0.644);
 }
-.hraci_pole:hover {
-  display: grid;
-  border: 1px solid black;
-  width: 10%;
-  aspect-ratio: 1 / 1;
-  background-color: white;
+.hraci_pole:hover,
+.hraci_pole:focus {
+  background-color: whitesmoke;
 }
 
 .hra {
@@ -197,7 +193,7 @@ a:active {
     justify-content: center;
     align-items: stretch;
   }
-  .pismo {
+  body {
     font-family: 'Montserrat', sans-serif;
     font-size: large;
   }
