@@ -25,9 +25,9 @@ const btnsEl = document.querySelectorAll('.hraci_pole');
 const myScript = function (btnPressed) {
   btnPressed.classList.add(`board__field--${player}`);
   btnPressed.setAttribute('disabled', '');
+
   player = player === 'circle' ? 'cross' : 'circle';
   hrajeEl.src = `images/${player}.svg`;
-  hrajeEl.style.animationDelay = '1s';
 
   hrajeEl.alt = `${player === 'circle' ? 'Kolečko' : 'Křížek'}`;
 };

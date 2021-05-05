@@ -212,14 +212,27 @@ a:active {
   }
 }
 
+@keyframes appear {
+  from {
+    background-size: 0%;
+  }
+
+  to {
+    background-size: 80%;
+  }
+}
+
 .board__field--cross {
   background-image: url(images/cross.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  animation-name: example;
+  background-size: 80%;
+  background-position: center;
+  animation: appear 0.3s;
 }
 .board__field--circle {
   background-image: url(images/circle.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 80%;
+  background-position: center;
+  animation: appear 0.3s;
 }
